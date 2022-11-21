@@ -17,4 +17,4 @@ port = 3000
 password = aq
 ```
 
-You can change the port and password
+You can change the details in `config.json`, port and password.
