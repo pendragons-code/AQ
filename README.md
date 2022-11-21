@@ -18,3 +18,7 @@ password = aq
 ```
 
 You can change the details in `config.json`, port and password.
+# To run:
+```
+npm run deploy
+```
