@@ -1,7 +1,7 @@
 const { EmbedBuilder } = require("discord.js")
 module.exports = {
 	name: "worship",
-	alias: ["pray"],
+	aliases: ["pray"],
 	desc: "PRAY TO GOD!!!",
 	utilisation: "worship",
 	category: "core",
