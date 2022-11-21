@@ -1,5 +1,6 @@
 # AQ
 AsherQuinn      
+[Link](https://discord.com/api/oauth2/authorize?client_id=1044001252029247559&permissions=8&scope=bot) for the bot        
 For the people that want it for no reason.
 
 # To use:
