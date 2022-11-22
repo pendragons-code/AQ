@@ -19,8 +19,8 @@ module.exports = async (Jasbot, messageCreate) =>{
 }
 	let tokensec = Jasbot.structures.get("tokensec")
 	tokensec.execute(Jasbot, messageCreate, args, mainprefix)
-	cmd.execute(Jasbot, messageCreate, args, mainprefix).catch(() => {
-		console.error()
+	cmd.execute(Jasbot, messageCreate, args, mainprefix).catch((error) => {
+		console.error("error", error)
 		console.log(messageCreate.content)
 		return messageCreate.channel.send("Something went wrong!")
 	})
